@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    background: #444;
+    overflow: hidden;
+}
+ul li{
+    float:left;
+    list-style-type: none;  
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 19px;
+    display: inline-block; 
+}
+
+ul li a:hover{
+    background: red;
+}
+.droupdown-content{
+    background: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    
+}
+.droupdown-content a:hover{
+    background: #999;
+    color: #000;
+}
+.droupdown-content a{
+    display: block;
+    color: #000;
+}
+.droupdown:hover .droupdown-content{
+    display: block
+}
+
